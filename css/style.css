@@ -21,11 +21,7 @@
 .flexbox-01 {
     display: flex;
     flex-direction: row;
-    
     flex-wrap: wrap;
-    align-items: center;
-    
-   
 }
 
 .flexbox-02 {
