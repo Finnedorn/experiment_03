@@ -11,20 +11,25 @@
 
 .debug {
     border: 1px solid black;
+    padding: 5px;
 }
 
 .text-center {
     text-align: center;
 }
 
-.float-left {
-    float: left;
+.flexbox-01 {
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    
+   
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+.flexbox-02 {
+    display: flex;
 }
 
 /*root*/
@@ -60,12 +65,13 @@ section {
 }
 
 .col {
-    width: calc(100% / 3);
     padding: 10px;
     min-width: 350px;
+    border: 1px dotted black;
 }
 
 .card {
+    min-width: calc(100% / 3);
     background-color: var(--icon-black);
     color: white;
     box-shadow: 5px 5px 10px rgb(161, 161, 161);
